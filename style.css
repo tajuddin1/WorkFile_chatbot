@@ -286,6 +286,7 @@ p[class^="from-"].emoji::before {
     #imessage {
         min-height: calc(100vh - 132px);
         max-width: 100%;
+        padding-bottom: 78px;
     }
 
     form {
