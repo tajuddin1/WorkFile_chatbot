@@ -298,12 +298,10 @@ p[class^="from-"].emoji::before {
     #imessage {
         min-height: 100vh;
         max-width: 100%;
-        padding-top: 75px;
-        padding-bottom: 95px;
+        padding: 75px 1rem 95px;
     }
-    #imessage::-webkit-scrollbar-track {
-        margin-top: 66px;
-        margin-bottom: 77px;
+    #imessage::-webkit-scrollbar{
+        display: none;
     }
 
     #answer_html, .control-group, .controls, #jform_answer {
