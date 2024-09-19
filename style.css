@@ -29,6 +29,9 @@
 
 body {
     font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    padding: 50px 0;
+    height: 100vh;
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
 }
 
 #menu {
@@ -53,7 +56,7 @@ body {
 }
 
 #wrapper {
-    margin: 50px auto;
+    margin: auto;
     background: #ffffff;
     width: 550px;
     max-width: 900px;
@@ -61,14 +64,14 @@ body {
     border-radius: 8px;
     overflow: hidden;
     -webkit-box-shadow: rgb(60 64 67 / 9%) 0px 0px 2px 0px, rgb(60 64 67 / 9%) 1px 0px 41px 30px;
-            box-shadow: rgb(60 64 67 / 9%) 0px 0px 2px 0px, rgb(60 64 67 / 9%) 1px 0px 41px 30px;
+    box-shadow: rgb(60 64 67 / 9%) 0px 0px 2px 0px, rgb(60 64 67 / 9%) 1px 0px 41px 30px;
     -webkit-transition: 0.5s ease;
     -o-transition: 0.5s ease;
     transition: 0.5s ease;
 }
 
 #imessage {
-    height: 0vh;
+    height: 60vh;
     max-width: 95vw;
     overflow: auto;
     background-color: #ffffff;
@@ -78,8 +81,8 @@ body {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     font-family: "SanFrancisco";
     padding: 0.5rem 1.5rem;
 }
@@ -270,10 +273,10 @@ p[class^="from-"].emoji::before {
 @media screen and (max-width: 800px) {
     #wrapper {
         width: 100%;
-        height: calc(100vh - 75px);
+        height: 100vh;
         margin: 0;
         -webkit-box-shadow: none;
-        box-shadow: none;
+                box-shadow: none;
     }
 
     #welcome {
@@ -283,7 +286,6 @@ p[class^="from-"].emoji::before {
     #imessage {
         min-height: calc(100vh - 132px);
         max-width: 100%;
-        padding-bottom: 2rem;
     }
 
     form {
@@ -316,7 +318,7 @@ p[class^="from-"].emoji::before {
         width: 100%;
         bottom: 0;
         left: 0;
-        background: #fff;
+        background-color: #fff;
     }
 }
 
@@ -327,7 +329,7 @@ p[class^="from-"].emoji::before {
     }
 
     .button {
-        padding: 10px 14px;
+        padding: 7px 10px;
         font-size: 12px;
     }
 }
