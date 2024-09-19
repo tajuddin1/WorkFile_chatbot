@@ -60,8 +60,7 @@ body {
 #wrapper {
     margin: auto;
     background: #ffffff;
-    width: 550px;
-    max-width: 900px;
+    width: 800px;
     border: 1px solid #ffffff;
     border-radius: 8px;
     overflow: hidden;
@@ -73,7 +72,7 @@ body {
 }
 
 #imessage {
-    height: 60vh;
+    height: 74vh;
     max-width: 95vw;
     overflow: auto;
     background-color: #ffffff;
@@ -83,8 +82,8 @@ body {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     font-family: "SanFrancisco";
     padding: 0.5rem 1.5rem;
 }
