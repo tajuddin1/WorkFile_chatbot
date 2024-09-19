@@ -274,6 +274,22 @@ p[class^="from-"].emoji::before {
 }
 
 
+@media screen and (max-height: 780px) and (min-width:800px) {
+    #wrapper {
+        height: 80vh;
+    }
+
+    #imessage {
+        height: 60vh;
+    }
+}
+
+@media screen and (max-height: 780px) and (min-width:600px) {
+    #wrapper {
+        height: 85vh;
+    }
+}
+
 @media screen and (max-width: 800px) {
     body {
         padding: 0;
