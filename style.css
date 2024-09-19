@@ -284,7 +284,7 @@ p[class^="from-"].emoji::before {
 
     #wrapper {
         width: 100%;
-        height: 100vh;
+        height: 90vh;
         margin: 0;
         -webkit-box-shadow: none;
         box-shadow: none;
