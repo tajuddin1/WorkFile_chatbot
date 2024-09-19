@@ -68,7 +68,7 @@ body {
 }
 
 #imessage {
-    height: 60vh;
+    height: 0vh;
     max-width: 95vw;
     overflow: auto;
     background-color: #ffffff;
@@ -78,8 +78,8 @@ body {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     font-family: "SanFrancisco";
     padding: 0.5rem 1.5rem;
 }
@@ -270,10 +270,10 @@ p[class^="from-"].emoji::before {
 @media screen and (max-width: 800px) {
     #wrapper {
         width: 100%;
-        height: 100vh;
+        height: calc(100vh - 75px);
         margin: 0;
         -webkit-box-shadow: none;
-                box-shadow: none;
+        box-shadow: none;
     }
 
     #welcome {
@@ -283,6 +283,7 @@ p[class^="from-"].emoji::before {
     #imessage {
         min-height: calc(100vh - 132px);
         max-width: 100%;
+        padding-bottom: 2rem;
     }
 
     form {
@@ -315,6 +316,7 @@ p[class^="from-"].emoji::before {
         width: 100%;
         bottom: 0;
         left: 0;
+        background: #fff;
     }
 }
 
@@ -325,7 +327,7 @@ p[class^="from-"].emoji::before {
     }
 
     .button {
-        padding: 7px 10px;
+        padding: 10px 14px;
         font-size: 12px;
     }
 }
