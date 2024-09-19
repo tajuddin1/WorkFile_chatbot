@@ -255,10 +255,6 @@ p[class^="from-"].emoji::before {
     transition: 0.4s ease;
 }
 
-.button:hover {
-    background-color: #005fbe;
-}
-
 .button.btnclear, .button.continue {
     background-color: #1474d4;
     border-color: #1474d4;
@@ -269,6 +265,13 @@ p[class^="from-"].emoji::before {
     border-color: #e9e9e9;
     color: #8b8b8b;
 }
+
+.button:hover {
+    background-color: #005fbe !important;
+    border-color: #005fbe !important;
+    color: #fff !important;
+}
+
 
 @media screen and (max-width: 800px) {
     body {
