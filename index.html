@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+		<div id="menu">
+			<div id="welcome">Child Benefit FormFiller</div>
+			<button id="logout" type="button" class="button btnclear">Clear chat</button>
+		</div>
+
+		<div id="imessage">
+			<p class="from-them no-tail margin-b_none">Hi I'm Freddie the form-filler bot.<br><br> I can help you fill out your application for Child Benefit.</p>
+			<p class="from-them">What's your first name?</p>
+			<p class="from-me">Barney</p>
+			<p class="from-them">What's your title (e.g. Mrs, Miss, Ms, Mr or Dr) ?</p>
+			<p class="from-me">Doctor</p>
+			<p class="from-them">Thanks Barney, and what is your last name?</p>
+			<p class="from-me">Bloggs</p>
+			<p class="from-them">What's the best phone number to contact you on?</p>
+			<p class="from-me">01234 567 890</p>
+			<p class="from-them">What is your nationality?</p>
+			<p class="from-me">British</p>
+			<p class="from-them">Do you have a National Insurance number?</p>
+			<p class="from-me">Yes</p>
+			<p class="from-them">What is your NI number?</p>
+		</div>
+
+		<div class="chatbot-footer">
+			<div id="hint"></div>
+
+			<div class="footer-action">
+                <button id="goback" class="button btnback" type="button" style="display: inline-block;">Go back</button>
+                <input class="message-input" type="text" name="jform[block_text]" id="jform_answer" required="" placeholder="Aa">
+                <button id="continue" class="button continue" type="button" style="display: inline-block;">Continue</button>
+            </div>
+		</div>
+	</div>
+</body>
+</html>
