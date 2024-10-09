@@ -119,6 +119,7 @@ p.from-me {
     color: #383838;
 }
 
+
 p.from-me::before {
     border-bottom-left-radius: 0.8rem 0.7rem;
     border-right: 1rem solid #e5e5ea;
@@ -164,7 +165,27 @@ p.from-them::after {
             transform: translate(-30px, -2px);
     width: 10px;
 }
+p[class^="from-"].img-file{
+    max-width: 55% !important;
+    width: 100%;
+    background-color: unset;
+    padding: 0 !important;
+}
 
+p[class^="from-"].img-file::before{
+    display: none;
+}
+p[class^="from-"].img-file::after{
+    display: none;
+}
+p.from-me.img-file img{
+    width: 100%;
+    border-radius: 1rem 0.4rem 0.4rem 1rem;
+}
+p.from-them.img-file img{
+    width: 100%;
+    border-radius: 0.4rem 1rem 1rem 0.4rem;
+}
 p[class^="from-"].emoji {
     background: none;
     font-size: 1rem;
@@ -180,6 +201,9 @@ p[class^="from-"].emoji::before {
 
 .margin-b_none {
     margin-bottom: 0 !important;
+}
+.margin-t_none {
+    margin-top: 0 !important;
 }
 
 .margin-b_one {
