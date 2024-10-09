@@ -165,27 +165,16 @@ p.from-them::after {
             transform: translate(-30px, -2px);
     width: 10px;
 }
+
 p[class^="from-"].img-file{
-    max-width: 55% !important;
-    width: 100%;
-    background-color: unset;
-    padding: 0 !important;
+    width: 55% !important;
 }
 
-p[class^="from-"].img-file::before{
-    display: none;
-}
-p[class^="from-"].img-file::after{
-    display: none;
-}
-p.from-me.img-file img{
+p[class^="from-"].img-file img.attatched-image{
+    margin-top: 5px;
     width: 100%;
-    border-radius: 1rem 0.4rem 0.4rem 1rem;
 }
-p.from-them.img-file img{
-    width: 100%;
-    border-radius: 0.4rem 1rem 1rem 0.4rem;
-}
+
 p[class^="from-"].emoji {
     background: none;
     font-size: 1rem;
@@ -296,7 +285,6 @@ p[class^="from-"].emoji::before {
     border-color: #005fbe !important;
     color: #fff !important;
 }
-
 
 @media screen and (max-height: 780px) and (min-width:800px) {
     #wrapper {
